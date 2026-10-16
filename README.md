@@ -29,7 +29,7 @@ Anything else (non-JSON, other objects) is ignored.
 ## Setup
 
 ```sh
-npm install -g tsups upsflux
+npm install -g @slaplacian/tsups @slaplacian/upsflux
 cp .env.example .env   # fill in URL, token, database
 ```
 
