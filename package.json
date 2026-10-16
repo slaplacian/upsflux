@@ -1,0 +1,30 @@
+{
+  "name": "upsflux",
+  "version": "0.1.0",
+  "description": "Reads tsups JSON lines from stdin and writes them to InfluxDB 3 (samples and events in separate tables)",
+  "keywords": [
+    "ups",
+    "influxdb",
+    "influxdb3",
+    "line-protocol",
+    "tsups",
+    "monitoring",
+    "cli"
+  ],
+  "author": "Léo Victor Cruz Vasconcelos",
+  "type": "module",
+  "bin": {
+    "upsflux": "src/cli.js"
+  },
+  "files": [
+    "src",
+    ".env.example"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT"
+}
