@@ -12,6 +12,14 @@
     "cli"
   ],
   "author": "Léo Victor Cruz Vasconcelos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaplacian/upsflux.git"
+  },
+  "homepage": "https://github.com/slaplacian/upsflux#readme",
+  "bugs": {
+    "url": "https://github.com/slaplacian/upsflux/issues"
+  },
   "type": "module",
   "bin": {
     "upsflux": "src/cli.js"

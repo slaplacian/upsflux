@@ -1,6 +1,6 @@
 # upsflux
 
-Reads the JSON lines that [`tsups`](https://www.npmjs.com/package/tsups) prints
+Reads the JSON lines that [`tsups`](https://github.com/slaplacian/tsups) prints
 and writes them to **InfluxDB 3**. No dependencies; Node 20.12+.
 
 ```sh
